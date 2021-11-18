@@ -41,7 +41,7 @@ const ContactForm = () => {
       <input
         type='radio'
         name='type'
-        value='personal'
+        value={type}
         checked={type === 'personal'}
         onChange={onChange}
       />{' '}
@@ -49,7 +49,7 @@ const ContactForm = () => {
       <input
         type='radio'
         name='type'
-        value='professional'
+        value={type}
         checked={type === 'professional'}
         onChange={onChange}
       />{' '}
