@@ -20,7 +20,6 @@ const ContactForm = () => {
     e.preventDefault();
 
     contactContext1.addContact(contact);
-
     setContact({
       name: '',
       email: '',
